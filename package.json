@@ -1,0 +1,30 @@
+{
+  "name": "pm-internship-recommender",
+  "version": "1.0.0",
+  "description": "AI-powered internship recommendation system for PM Internship Scheme",
+  "scripts": {
+    "build": "pip install -r backend/requirements.txt && echo 'Build completed successfully'",
+    "vercel-build": "pip install -r backend/requirements.txt && echo 'Vercel build completed'",
+    "start": "cd backend && python app.py",
+    "dev": "cd backend && python app.py"
+  },
+  "keywords": [
+    "internship",
+    "recommendation",
+    "flask",
+    "python",
+    "pm-internship",
+    "government",
+    "youth"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/pm-internship-recommender.git"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/pm-internship-recommender#readme"
+}
